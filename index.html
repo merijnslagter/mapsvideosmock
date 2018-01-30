@@ -17,7 +17,7 @@
         }
         </style>
         <title></title>
-         <br> <h4 font size="3" align=center> Click <a href="https://merijnslagter.github.io/">here</a> to go back to the video page. </h4>
+        <br> <h4 font size="3" align=center> Click <a href="https://merijnslagter.github.io/">here</a> to go back to the video page. </h4>
     </head>
     <body>
         <div id="map">
@@ -75,22 +75,28 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2"><strong>Boer</strong><br />' + (feature.properties['Boer'] !== null ? Autolinker.link(String(feature.properties['Boer'])) : '') + '</td>\
+                        <th scope="row">Boer</th>\
+                        <td>' + (feature.properties['Boer'] !== null ? Autolinker.link(String(feature.properties['Boer'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Video</strong><br />' + (feature.properties['Video'] !== null ? Autolinker.link(String(feature.properties['Video'])) : '') + '</td>\
+                        <th scope="row">Video</th>\
+                        <td>' + (feature.properties['Video'] !== null ? Autolinker.link(String(feature.properties['Video'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Link</strong><br />' + (feature.properties['Link'] !== null ? Autolinker.link(String(feature.properties['Link'])) : '') + '</td>\
+                        <th scope="row">Link</th>\
+                        <td>' + (feature.properties['Link'] !== null ? Autolinker.link(String(feature.properties['Link'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Thema'] !== null ? Autolinker.link(String(feature.properties['Thema'])) : '') + '</td>\
+                        <th scope="row">Thema</th>\
+                        <td>' + (feature.properties['Thema'] !== null ? Autolinker.link(String(feature.properties['Thema'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Perceel'] !== null ? Autolinker.link(String(feature.properties['Perceel'])) : '') + '</td>\
+                        <th scope="row">Perceel</th>\
+                        <td>' + (feature.properties['Perceel'] !== null ? Autolinker.link(String(feature.properties['Perceel'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Doel'] !== null ? Autolinker.link(String(feature.properties['Doel'])) : '') + '</td>\
+                        <th scope="row">Doel</th>\
+                        <td>' + (feature.properties['Doel'] !== null ? Autolinker.link(String(feature.properties['Doel'])) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -138,22 +144,28 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2"><strong>Boer</strong><br />' + (feature.properties['Boer'] !== null ? Autolinker.link(String(feature.properties['Boer'])) : '') + '</td>\
+                        <th scope="row">Boer</th>\
+                        <td>' + (feature.properties['Boer'] !== null ? Autolinker.link(String(feature.properties['Boer'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Video</strong><br />' + (feature.properties['Video'] !== null ? Autolinker.link(String(feature.properties['Video'])) : '') + '</td>\
+                        <th scope="row">Video</th>\
+                        <td>' + (feature.properties['Video'] !== null ? Autolinker.link(String(feature.properties['Video'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Link</strong><br />' + (feature.properties['Link'] !== null ? Autolinker.link(String(feature.properties['Link'])) : '') + '</td>\
+                        <th scope="row">Link</th>\
+                        <td>' + (feature.properties['Link'] !== null ? Autolinker.link(String(feature.properties['Link'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Thema'] !== null ? Autolinker.link(String(feature.properties['Thema'])) : '') + '</td>\
+                        <th scope="row">Thema</th>\
+                        <td>' + (feature.properties['Thema'] !== null ? Autolinker.link(String(feature.properties['Thema'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Perceel'] !== null ? Autolinker.link(String(feature.properties['Perceel'])) : '') + '</td>\
+                        <th scope="row">Perceel</th>\
+                        <td>' + (feature.properties['Perceel'] !== null ? Autolinker.link(String(feature.properties['Perceel'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Doel'] !== null ? Autolinker.link(String(feature.properties['Doel'])) : '') + '</td>\
+                        <th scope="row">Doel</th>\
+                        <td>' + (feature.properties['Doel'] !== null ? Autolinker.link(String(feature.properties['Doel'])) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -201,22 +213,28 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2"><strong>Boer</strong><br />' + (feature.properties['Boer'] !== null ? Autolinker.link(String(feature.properties['Boer'])) : '') + '</td>\
+                        <th scope="row">Boer</th>\
+                        <td>' + (feature.properties['Boer'] !== null ? Autolinker.link(String(feature.properties['Boer'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Video</strong><br />' + (feature.properties['Video'] !== null ? Autolinker.link(String(feature.properties['Video'])) : '') + '</td>\
+                        <th scope="row">Video</th>\
+                        <td>' + (feature.properties['Video'] !== null ? Autolinker.link(String(feature.properties['Video'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>Link</strong><br />' + (feature.properties['Link'] !== null ? Autolinker.link(String(feature.properties['Link'])) : '') + '</td>\
+                        <th scope="row">Link</th>\
+                        <td>' + (feature.properties['Link'] !== null ? Autolinker.link(String(feature.properties['Link'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Thema'] !== null ? Autolinker.link(String(feature.properties['Thema'])) : '') + '</td>\
+                        <th scope="row">Thema</th>\
+                        <td>' + (feature.properties['Thema'] !== null ? Autolinker.link(String(feature.properties['Thema'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Perceel'] !== null ? Autolinker.link(String(feature.properties['Perceel'])) : '') + '</td>\
+                        <th scope="row">Perceel</th>\
+                        <td>' + (feature.properties['Perceel'] !== null ? Autolinker.link(String(feature.properties['Perceel'])) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Doel'] !== null ? Autolinker.link(String(feature.properties['Doel'])) : '') + '</td>\
+                        <th scope="row">Doel</th>\
+                        <td>' + (feature.properties['Doel'] !== null ? Autolinker.link(String(feature.properties['Doel'])) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -263,7 +281,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Thema'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Noto Sans\', sans-serif;">' + layer.feature.properties['Thema']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Perceel_0'});
+            layer.bindTooltip((layer.feature.properties['Perceel'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Noto Sans\', sans-serif;">' + layer.feature.properties['Perceel']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Perceel_0'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
@@ -276,7 +294,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Thema'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Noto Sans\', sans-serif;">' + layer.feature.properties['Thema']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Doel_1'});
+            layer.bindTooltip((layer.feature.properties['Doel'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'Noto Sans\', sans-serif;">' + layer.feature.properties['Doel']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Doel_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
